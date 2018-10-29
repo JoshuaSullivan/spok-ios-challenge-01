@@ -22,6 +22,7 @@
 		5AF5D9302187457D007DF37B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AF5D9332187457D007DF37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AF5D9352187457D007DF37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF5D93C218746CE007DF37B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +55,23 @@
 		5AF5D9282187457A007DF37B /* challenge-01-animation */ = {
 			isa = PBXGroup;
 			children = (
+				5AF5D93C218746CE007DF37B /* README.md */,
 				5AF5D9292187457A007DF37B /* AppDelegate.swift */,
 				5AF5D92B2187457A007DF37B /* ViewController.swift */,
-				5AF5D92D2187457A007DF37B /* Main.storyboard */,
 				5AF5D9302187457D007DF37B /* Assets.xcassets */,
-				5AF5D9322187457D007DF37B /* LaunchScreen.storyboard */,
+				5AF5D93B21874598007DF37B /* Interfaces */,
 				5AF5D9352187457D007DF37B /* Info.plist */,
 			);
 			path = "challenge-01-animation";
+			sourceTree = "<group>";
+		};
+		5AF5D93B21874598007DF37B /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				5AF5D92D2187457A007DF37B /* Main.storyboard */,
+				5AF5D9322187457D007DF37B /* LaunchScreen.storyboard */,
+			);
+			path = Interfaces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
