@@ -39,6 +39,7 @@
 		5AF5D91D2187457A007DF37B = {
 			isa = PBXGroup;
 			children = (
+				5AF5D93C218746CE007DF37B /* README.md */,
 				5AF5D9282187457A007DF37B /* challenge-01-animation */,
 				5AF5D9272187457A007DF37B /* Products */,
 			);
@@ -55,7 +56,6 @@
 		5AF5D9282187457A007DF37B /* challenge-01-animation */ = {
 			isa = PBXGroup;
 			children = (
-				5AF5D93C218746CE007DF37B /* README.md */,
 				5AF5D9292187457A007DF37B /* AppDelegate.swift */,
 				5AF5D92B2187457A007DF37B /* ViewController.swift */,
 				5AF5D9302187457D007DF37B /* Assets.xcassets */,
